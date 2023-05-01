@@ -1,0 +1,37 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #f7f7f7;
+  font-size: 18px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table thead th {
+  background-color: #f7f7f7;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.table tbody tr:hover {
+  background-color: #f7f7f7;
+}

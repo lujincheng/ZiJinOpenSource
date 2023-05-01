@@ -1,0 +1,100 @@
+/* Set font and background color for the entire body */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Set margin for the container element */
+.container {
+    margin-top: 20px;
+}
+
+/* Set border and margin for the card element */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #d4d4d4;
+}
+
+/* Set background color, font size, font weight, and text alignment for the card header */
+.card-header {
+    background-color: #f7f7f7;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/* Move the button to the right and adjust its position */
+.card-header .btn {
+    float: right;
+    margin-top: -3px;
+}
+
+/* Reduce opacity on button hover */
+.card-header .btn:hover {
+    opacity: 0.8;
+}
+
+/* Remove padding for the card body */
+.card-body {
+    padding: 0;
+}
+
+/* Center align and vertically align table cells */
+.table td,
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Set background color, font size, font weight, and border for table header cells */
+.table thead th {
+    background-color: #f7f7f7;
+    font-size: 16px;
+    font-weight: normal;
+    border-top: 1px solid #d4d4d4;
+}
+
+/* Set background color for table rows on hover */
+.table tbody tr:hover {
+    background-color: #f7f7f7;
+}
+
+/* Uncomment the following line to make the first cell of each row bold */
+/* .table td:first-child { font-weight: bold; } */
+
+/* Set text and border colors for success buttons */
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+/* Set background and text colors for success buttons on hover */
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Set text and border colors for primary buttons */
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Set background and text colors for primary buttons on hover */
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Set text and border colors for danger buttons */
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Set background and text colors for danger buttons on hover */
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
